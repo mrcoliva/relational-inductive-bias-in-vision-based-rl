@@ -2,7 +2,7 @@
 
 This repository contains the code to reproduce the results of the paper [Graph Neural Networks for Relational Inductive Bias in Vision-based Deep Reinforcement Learning of Robot Control](https://arxiv.org/abs/2203.05985) by Marco Oliva, Soubarna Banik, Josip Josifovski and Alois Knoll.
 
-<img src="images/environments.png" width="700">
+<img src="6link_control.gif" width="700">
 
 # 🔨 Installation
 All of the code and the required dependencies are packaged in a docker image. To install, follow these steps:
