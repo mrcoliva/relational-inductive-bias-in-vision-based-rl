@@ -1,0 +1,13 @@
+numpy==1.19.5
+tensorflow==2.4.1
+stable_baselines3==1.1.0a7
+matplotlib==3.3.1
+gym==0.18.0
+Box2D==2.3.10
+roslibpy==1.2.1
+zmq==0.0.0
+service-identity
+grpcio
+opencv-python
+optuna
+plotly

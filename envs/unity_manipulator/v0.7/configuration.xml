@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CommunicationType>GRPC</CommunicationType>
+  <PortNumber>9091</PortNumber>
+  <IPAddress>localhost</IPAddress>
+  <EnableObservationImage>true</EnableObservationImage>
+  <SaveObservationImageAsFile>false</SaveObservationImageAsFile>
+  <ObservationImageWidth>100</ObservationImageWidth>
+  <ObservationImageHeight>100</ObservationImageHeight>
+  <ObservationCameras>
+    <CameraParameters>
+      <CameraPosition>
+        <float>0</float>
+        <float>2.9</float>
+        <float>0</float>
+      </CameraPosition>
+      <CameraRotation>
+        <float>90</float>
+        <float>0</float>
+        <float>0</float>
+      </CameraRotation>
+    </CameraParameters>
+  </ObservationCameras>
+  <EnableGrayscale>false</EnableGrayscale>
+  <ItemType>CUBE</ItemType>
+  <EnableEndEffector>false</EnableEndEffector>
+  <MaxJointVelocity>100</MaxJointVelocity>
+  <RandomizeAppearance>false</RandomizeAppearance>
+  <RandomizeLatency>false</RandomizeLatency>
+  <RandomizeTorque>false</RandomizeTorque>
+  <FloorType>MONOCHROMATIC</FloorType>
+  <TrajectoryString></TrajectoryString>
+</Configuration>
