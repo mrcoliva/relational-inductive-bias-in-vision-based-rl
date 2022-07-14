@@ -36,7 +36,7 @@ Models with the prefix `2_link` use the `nlinks_box2d` environment, whereas the 
 
 > **__NOTE__** When using one of the '6_link...' models, the acrobot unity simulation must be started first.
 
-## 🤖 How to run the acrobot simulation containing the 6-DoF robot.
+## 🤖 How to run the manipulator simulation containing the 6-DoF robot.
 It is recommended to launch the unity simulation from _outside_ the Docker image.
 
 Follow the following steps to start it from the root directory of the repository (note the display id might be different depending on `$DISPLAY`):
