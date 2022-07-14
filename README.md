@@ -2,7 +2,7 @@
 
 This repository contains the code to reproduce the results of the paper [Graph Neural Networks for Relational Inductive Bias in Vision-based Deep Reinforcement Learning of Robot Control](https://arxiv.org/abs/2203.05985) by Marco Oliva, Soubarna Banik, Josip Josifovski and Alois Knoll.
 
-<img src="images/environments.png" width="700">
+<img src="6link_control.gif" width="700">
 
 # 🔨 Installation
 All of the code and the required dependencies are packaged in a docker image. To install, follow these steps:
@@ -36,7 +36,7 @@ Models with the prefix `2_link` use the `nlinks_box2d` environment, whereas the 
 
 > **__NOTE__** When using one of the '6_link...' models, the acrobot unity simulation must be started first.
 
-## 🤖 How to run the acrobot simulation containing the 6-DoF robot.
+## 🤖 How to run the manipulator simulation containing the 6-DoF robot.
 It is recommended to launch the unity simulation from _outside_ the Docker image.
 
 Follow the following steps to start it from the root directory of the repository (note the display id might be different depending on `$DISPLAY`):
